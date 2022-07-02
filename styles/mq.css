@@ -1,0 +1,17 @@
+@media(max-width : 645px) {
+    .keep-forms-container {
+        flex-direction: column;
+    }
+}
+@media(max-width : 965px){
+    .keep-preview-bar {
+        opacity: 0.8;
+    }
+    .keep-add{
+        flex-direction: column;
+        width:90vw; 
+    }
+    .keep-filter{
+        flex-direction: column;
+    }
+}

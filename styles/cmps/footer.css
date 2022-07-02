@@ -1,0 +1,12 @@
+.app-footer {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    font-weight: 800;
+    font-size: 20px;
+    color: #f59c58;
+    border-radius: 5px;
+    margin-top:40px
+}

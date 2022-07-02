@@ -1,0 +1,17 @@
+.app-header {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-size: 25px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292929;
+    color: #f59c58;
+    margin:auto;
+    margin-bottom: 10px;
+}
+
+
+.logo{
+    margin-left: 30px;
+}

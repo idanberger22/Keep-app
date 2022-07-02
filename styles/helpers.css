@@ -1,0 +1,19 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-h {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.keep-space-between{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
