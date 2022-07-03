@@ -56,17 +56,17 @@ export class KeepAdd extends React.Component {
         return <section className='keep-add'>
             {display === 'txt' &&
                 <input type="text" id="txt" placeholder="write a note..."
-                    name="txt" ref={this.txtRef} className='keep-input' value={txt} onChange={this.handleChange} autoComplete="off" />}
+                    name="txt" ref={this.txtRef} className='keep-add-input' value={txt} onChange={this.handleChange} autoComplete="off" />}
             {display === 'img' &&
                 <input type="text" id="img" placeholder="image address"
-                    name="img" ref={this.imgRef} className='keep-input' autoComplete="off" />}
+                    name="img" ref={this.imgRef} className='keep-add-input' autoComplete="off" />}
             {display === 'vid' &&
                 <input type="text" id="vid" placeholder="youtube link"
-                    name="vid" ref={this.vidRef} className='keep-input' autoComplete="off" />}
+                    name="vid" ref={this.vidRef} className='keep-add-input' autoComplete="off" />}
             {display === 'list' &&
                 <input type="text" id="todo" placeholder="first task"
-                    name="list" ref={this.listRef} className='keep-input' autoComplete="off" />}
-            {display && <input type="text" id="name" placeholder='what should you call it?' className='keep-input'
+                    name="list" ref={this.listRef} className='keep-add-input' autoComplete="off" />}
+            {display && <input type="text" id="name" placeholder='what should you call it?' className='keep-add-input'
                 value={name} name="name" ref={this.nameRef} style={{ marginButtom: '6px' }} onChange={this.handleChange} autoComplete="off" />}
             <div className='keep-add-bar center-h'>
                 <button onClick={() => this.onChangeDisplay('txt')} title='text' className='keep-add-button' style={{ height: 'inherit' }}>
@@ -81,7 +81,7 @@ export class KeepAdd extends React.Component {
                 <button onClick={() => this.onChangeDisplay('list')} title='list' className='keep-add-button' style={{ height: 'inherit' }}>
                     <span className="material-icons">checklist</span>
                 </button>
-                <button onClick={() => this.onAdd(display)} title='add' className='keep-add-button' style={{ height: 'inherit' }}>add</button>
+                <button onClick={() => this.onAdd(display)} title='add' className='keep-add-button' style={{ height: 'inherit' }}>Add</button>
             </div>
         </section>
     }

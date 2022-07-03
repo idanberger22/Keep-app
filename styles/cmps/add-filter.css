@@ -1,40 +1,47 @@
+.keep-forms-container{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 5vh;
+}
+
 .keep-add {
-    width: 960px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 3vh;
-    border: 2px solid rgba(93, 93, 93, 0.446);
+    border: 1px solid rgba(93, 93, 93, 0.446);
     border-radius: 8px;
 }
-.keep-filter{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.keep-add-bar {
-    height: 50px;
-    width: 300px;
-}
-.keep-add-button{
+
+.keep-add-button {
     background-color: white;
     color:#f59c58;
     font-size: 160%;
     font-weight: 500;
-    height: 40px;
     width: 60px;
-    border-radius: 3px;
-    border: 1px solid rgba(64, 64, 64, 0.245);
+    border: 0px solid rgba(64, 64, 64, 0.245);
     cursor: pointer;
 }
-.keep-input{
+
+.keep-add-input {
     background-color: white;
     color: #f59c58;
-    font-size: 100%;
+    font-size: 150%;
     width: 300px;
     height: 50px;
     border-width: 0px;
     margin-right: 5px
+}
+
+.keep-filter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
 }
