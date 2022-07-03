@@ -68,20 +68,22 @@ export class KeepAdd extends React.Component {
                     name="list" ref={this.listRef} className='keep-add-input' autoComplete="off" />}
             {display && <input type="text" id="name" placeholder='what should you call it?' className='keep-add-input'
                 value={name} name="name" ref={this.nameRef} style={{ marginButtom: '6px' }} onChange={this.handleChange} autoComplete="off" />}
+
+                
             <div className='keep-add-bar center-h'>
-                <button onClick={() => this.onChangeDisplay('txt')} title='text' className='keep-add-button' style={{ height: 'inherit' }}>
+                <button onClick={() => this.onChangeDisplay('txt')} title='text' className='keep-add-button'>
                     <span className="material-icons">edit_note</span>
                 </button>
-                <button onClick={() => this.onChangeDisplay('img')} title='photo' className='keep-add-button' style={{ height: 'inherit' }}>
+                <button onClick={() => this.onChangeDisplay('img')} title='photo' className='keep-add-button'>
                 <span className="material-icons">image</span>
                 </button>
-                <button onClick={() => this.onChangeDisplay('vid')} title='video' className='keep-add-button' style={{ height: 'inherit' }}>
+                <button onClick={() => this.onChangeDisplay('vid')} title='video' className='keep-add-button'>
                     <span className="material-icons">videocam</span>
                 </button>
-                <button onClick={() => this.onChangeDisplay('list')} title='list' className='keep-add-button' style={{ height: 'inherit' }}>
+                <button onClick={() => this.onChangeDisplay('list')} title='list' className='keep-add-button'>
                     <span className="material-icons">checklist</span>
                 </button>
-                <button onClick={() => this.onAdd(display)} title='add' className='keep-add-button' style={{ height: 'inherit' }}>Add</button>
+                <button onClick={() => this.onAdd(display)} title='add' className='keep-add-button'>Add</button>
             </div>
         </section>
     }
